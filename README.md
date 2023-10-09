@@ -20,7 +20,7 @@
     
     `set(CMAKE_TOOLCHAIN_FILE "D:/Library/vcpkg/scripts/buildsystems/vcpkg.cmake")`
     
-3. 调用安装脚本，安装需要的包
+3. 调用安装脚本，安装需要的包，下面的是在终端执行的代码，也可以直接双击运行
     
     ```bash
     .\install_packages.bat
@@ -51,7 +51,7 @@
     All MSBuild C++ projects can now #include any installed libraries. Linking will be handled automatically. Installing new libraries will make them instantly available.
     ```
     
-4. 调用构建脚本，编译工程文件到build目录中，正常构建会自动打开工程。工程文件为build/Watermark3D.sln
+4. 调用构建脚本，编译工程文件到build目录中，正常构建会自动打开工程。工程文件为build/Watermark3D.sln，下面的是在终端执行的代码，也可以直接双击运行
     
     ```bash
     ./build.bat

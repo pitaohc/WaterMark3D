@@ -1,2 +1,2 @@
-cmake -B build
-start "" "./build/Watermark3D.sln"
+@cmake -B build
+@start "" "./build/Watermark3D.sln"
